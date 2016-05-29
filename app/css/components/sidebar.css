@@ -1,0 +1,20 @@
+@value color-white, color-dodger-blue from '../common/colors.css';
+
+.sidebar {
+  composes: card from '../common/card';
+  width: 230px;
+  float: right;
+  margin-left: 30px;
+  margin-top: 90px;
+}
+
+  .header {
+    composes: title from '../common/card';
+    composes: subheading from '../common/typography';
+    background-color: color-dodger-blue;
+    color: color-white;
+  }
+
+  .content {
+    padding: 15px;
+  }
