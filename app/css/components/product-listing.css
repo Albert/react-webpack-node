@@ -1,0 +1,8 @@
+.header {
+  composes: heading from '../common/typography';
+  text-align: center;
+}
+
+.listing {
+  composes: normal from '../common/typography';
+}
